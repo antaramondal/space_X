@@ -2,6 +2,7 @@ import React from "react";
 
 function SearchItem(props) {
   const data = props.result;
+  console.log(data);
   return (
     <div className={props.device==="isDesktopOrLaptop" ?"item-card-desktop": "item-card"}>
       <div className="img-div">
@@ -27,7 +28,7 @@ function SearchItem(props) {
           <b>Successful Launch: </b> {String(data.launch_success)}
         </span>
         <span>
-          <b>Successful Landing : </b> {String(data.launch_success)}
+          <b>Successful Landing : </b> {(data.rocket.first_stage.cores[0].land_success)==null? "N/A":String(data.rocket.first_stage.cores[0].land_success)}
         </span>
       </div>
     </div>
