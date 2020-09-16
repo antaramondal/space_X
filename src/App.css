@@ -1,0 +1,152 @@
+.body {
+  background-color: #dedede;
+  display: flex;
+  flex-flow: column;
+}
+.header {
+  font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 15px;
+}
+
+.header-desktop {
+  font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 15px;
+}
+
+.nav-search {
+  display: flex;
+  margin: 0px;
+  /* height: 89vh; */
+  flex-flow: column
+}
+
+.nav-search-desktop {
+  display: flex;
+  margin: 0px;
+  height: 89vh;
+}
+
+.footer {
+  height: 4vh;
+    text-align: center;
+    font-weight: 100;
+}
+
+.footer-desktop {
+  height: 4vh;
+    text-align: center;
+    font-weight: 100;
+}
+
+.main-body-desktop {
+  overflow-y: overlay;
+  margin: 0px 10px;
+  width: calc(100% - 155px);
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.main-body-tablet {
+  overflow-y: overlay;
+  margin: 0px 10px;
+  width: calc(100% - 155px);
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+}
+
+.main-body {
+  overflow-y: overlay;
+  margin: 0px 10px;
+  /* width: calc(100% - 155px); */
+  display: flex;
+  /* grid-template-columns: auto auto auto auto;
+  grid-gap: 10px; */
+  flex-flow: column
+}
+
+.filter-tab-desktop {
+  width: 145px;
+  background-color: white;
+  margin: 0px 10px;
+  border: none;
+    border-radius: 5px;
+    height: 89vh;
+    overflow-y: overlay;
+}
+
+.filter-tab {
+  /* width: 145px; */
+  background-color: white;
+  margin: 0px 10px;
+  border: none;
+    border-radius: 5px;
+    height: 89vh;
+    overflow-y: overlay;
+}
+
+.filter-header {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 8px 8px 0px 8px;
+}
+
+.filter-div {
+  text-align: center;
+  margin: 5px;
+  font-size: 15px;
+}
+.filter-button {
+  margin: 3%;
+  padding: 7%;
+  background-color: #bcea88fc;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+}
+
+.filter-button:focus {
+  outline: none;
+}
+
+.item-card-desktop{
+  /* width: 55%; */
+    padding: 4%;
+    background-color: white;
+    /* margin: 0 2% 5% 5%; */
+    border: none;
+    border-radius: 5px;
+}
+
+.item-card{
+  /* width: 55%; */
+    padding: 4%;
+    background-color: white;
+    /* margin: 0 2% 5% 5%; */
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px
+}
+
+.img-div{
+  text-align: center;
+}
+.img-tag{
+  width: 60%;
+    padding: 10%;
+}
+.data-div{
+  font-size: 15px;
+}
+
+.data-div span{
+  display:block;
+}
+.data-name{
+  font-size: 20px;
+    color: #0c1ef1;
+    font-weight: 700;
+}
